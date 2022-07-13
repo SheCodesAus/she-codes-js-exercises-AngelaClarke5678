@@ -11,7 +11,8 @@ window.onload = function () {
 
 function showMessage(){
     let message = document.getElementById("message-text").value
-    let messageBox = document.getElementById("message-box");messageBox.innerText = message
+    let message2 = document.getElementById("message-textTwo").value
+    let messageBox = document.getElementById("message-box");messageBox.innerText = message + " "+ message2
     console.log(message)
 }
 
